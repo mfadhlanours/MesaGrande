@@ -1,0 +1,343 @@
+/* Scroll Tracker */
+.scroll-tracker{
+  position: fixed;
+  inset: 0 0 auto;
+  height: .8rem;
+  background-color: black;
+
+}
+/* Main-HTML */
+section{
+  display: grid;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 4.6vw;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Bootstrap-Library */
+.navbar {
+    position:sticky;
+    flex-wrap:nowrap;
+    justify-content:center;
+}
+.container-fluid{
+  padding: 3% 17%;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BE8C63' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BE8C63' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* navbar */
+
+/* title */
+#title{
+  background-color: #2C3639;
+}
+
+.backgroundTitle{
+  background-image: url("C:/Users/ASUS ROG/Desktop/Web Developments/Mesa Grande/Images/Fasad-Stereo.jpg");
+}
+
+.title-box{
+  padding: 3% 0% 12%;
+}
+.title-logo{
+  width: 20%;
+  margin-right: 5%;
+}
+.title-images{
+  margin: auto 14%;
+  width: 80%;
+  border-radius: 4rem 1.5rem;
+  filter: drop-shadow(0mm 0mm 1rem black);
+  transform: scale(100%);
+  transition: 1s;
+}
+.title-images:hover{
+  transform: scale(110%);
+  transition: 1s;
+}
+.title-font-h1{
+  color: #BE8C63;
+}
+.title-font-p{
+  color: #DCD7C9;
+}
+
+/* Features */
+#features{
+  background-color: #ffff;
+}
+
+.features-box-outside{
+  text-align: center;
+  padding: 3% 14%;
+}
+.features-box{
+  text-align: center;
+  padding: 3% 7% 7%;
+}
+.features-icon{
+  color: #3F4E4F;
+  margin: 7%;
+  padding: 3% 7%;
+  transform: scale(100%);
+  transition: 1s;
+}
+.features-icon:hover{
+  color: #2C3639;
+  transform: scale(120%);
+  transition: 1s;
+}
+.features-font-h3{
+  color: #A27B5C;
+  font-weight: 700;
+  padding: 1% 14%;
+}
+.features-font-h2{
+  color: #2C3639;
+  padding: 3% 0%;
+}
+.features-font-p{
+  color: #8f8f8f;
+  padding: 0% 20%;
+}
+
+/* Spesification */
+#spec{
+  background-color: #2C3639;
+}
+
+.spec-col-box{
+  text-align: center;
+  align-items: center;
+}
+.spec-box{
+  padding: 5% 0%;
+}
+.spec-box-inside{
+  margin: auto 0%;
+  padding: 15% 0% 3%;
+}
+.spec-font-h1{
+  color: #BE8C63;
+  font-size: 3vw;
+  text-align: center;
+}
+.spec-font-p{
+  font-size: 1.1vw;
+  font-weight: 300;
+  color: #ffff;
+}
+.spec-images{
+  width: 20vw;
+  filter: drop-shadow(0mm 0mm 1rem black);
+}
+.spec-images-rumah{
+  padding: 3.3% 0%;
+  width: 20vw;
+  filter: drop-shadow(0mm 0mm 0.5rem black);
+}
+
+/* Blueprint */
+#blueprint{
+  background-color: #ffff;
+  margin: 5% 0% 10%;
+}
+
+.blueprint-box{
+  padding: 3% 0%;
+}
+
+.blueprint-images-top{
+  width: 60vh;
+  float: right;
+  transform: scale(80%);
+  transition: 1s;
+  clear: left;
+}
+.blueprint-images-middle{
+  width: 61vh;
+  float: left;
+  transform: scale(80%);
+  transition: 1s;
+  clear: right;
+}
+.blueprint-images-bottom{
+  width: 61vh;
+  float: right;
+  transform: scale(80%);
+  transition: 1s;
+  clear: left;
+}
+.blueprint-images-top:hover{
+  transform: scale(100%);
+  transition: 1s
+  clear: left;
+}
+.blueprint-images-middle:hover{
+  transform: scale(100%);
+  transition: 1s
+  clear: right;
+}
+.blueprint-images-bottom:hover{
+  transform: scale(100%);
+  transition: 1s
+  clear: left;
+}
+.blueprint-top{
+  height: 360px;
+
+}
+.blueprint-middle{
+  height: 260px;
+}
+.blueprint-bottom{
+  height: 400;
+}
+.blueprint-font-h2{
+  padding-top: 8%;
+}
+.blueprint-font-h2-right{
+  padding-top: 12%;
+  text-align: right;
+}
+/* Denah */
+#denah{
+  background-color: #2C3639;
+}
+
+.denah-box{
+  padding: 1%;
+  text-align: center;
+}
+.denah-box-bottom{
+  padding: 0% 0% 5%;
+  text-align: center;
+}
+.denah-images{
+  filter: drop-shadow(0mm 0mm 1rem black);
+  padding-bottom: 3%;
+  transform: scale(90%);
+  transition: 1s;
+}
+.denah-images:hover{
+  transform: scale(101%);
+  transition: 1s;
+}
+.denah-font-h1{
+  font-size: 3.5vw;
+  color: #BE8C63;
+}
+.denah-font-h2{
+  font-size: 2.8vw;
+  color: #BE8C63;
+}
+.denah-font-p{
+  color: #ffff;
+}
+
+/* Promo */
+#promo{
+  background-color: #ffff;
+}
+
+.promo-box{
+  text-align: center;
+}
+.promo-font-h2{
+  font-size: 2.5vw;
+  color: #2C3639;
+}
+.promo-font-h3{
+  color: #2C3639;
+}
+.promo-icon{
+  color: #3F4E4F;
+  padding-bottom: 3%;
+  transform: scale(100%);
+  transition: 1s;
+}
+.promo-icon:hover{
+  color: #2C3639;
+  transform: scale(120%);
+  transition: 1s;
+}
+
+/* Real*/
+#real{
+  background-color: #2C3639;
+  padding: 0% 0%;
+}
+.real-images{
+  width: 100%;
+  box-shadow: 5px 5px;
+}
+.real-box{
+  padding: 7% 14%;
+  text-align: center;
+}
+.real-font-h1{
+  color: #BE8C63;
+  padding-bottom: 3%;
+}
+/* Contact */
+#contact{
+  background-color: #2C3639;
+  padding: 0% 0%;
+}
+
+.contact-box{
+  text-align: center;
+}
+.contact-icon{
+  padding: 5%;
+  color: #ffff;
+  transform: scale(100%);
+  transition: 1s;
+}
+.contact-font-h2{
+  padding: 0% 0% 2%;
+  color: #ffff;
+}
+.contact-font-h3{
+  font-size: 1.3vw;
+  color: #ffff;
+  text-decoration: none;
+}
+.contact-font-h3:hover{
+  color: #BE8C63;
+}
+.contact-link{
+  text-decoration: none;
+  color: #ffff;
+}
+.contact-icon:hover{
+  color: #BE8C63;
+  transform: scale(120%);
+  transition: 1s;
+}
