@@ -1,6 +1,7 @@
 /* Scroll Tracker */
 .scroll-tracker{
   position: fixed;
+  align-items: left;
   inset: 0 0 auto;
   height: .8rem;
   background-color: black;
