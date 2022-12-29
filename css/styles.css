@@ -176,6 +176,7 @@ p{
 
 .blueprint-images-top{
   width: 60vh;
+  margin: 5px 5px;
   float: right;
   transform: scale(80%);
   transition: 1s;
@@ -183,6 +184,7 @@ p{
 }
 .blueprint-images-middle{
   width: 61vh;
+  margin: 5px 5px;
   float: left;
   transform: scale(80%);
   transition: 1s;
@@ -190,6 +192,7 @@ p{
 }
 .blueprint-images-bottom{
   width: 61vh;
+  margin: 5px 5px;
   float: right;
   transform: scale(80%);
   transition: 1s;
@@ -211,14 +214,14 @@ p{
   clear: left;
 }
 .blueprint-top{
-  height: 360px;
+  height: 400px;
 
 }
 .blueprint-middle{
-  height: 260px;
+  height: 340px;
 }
 .blueprint-bottom{
-  height: 400;
+  height: 440;
 }
 .blueprint-font-h2{
   padding-top: 8%;
