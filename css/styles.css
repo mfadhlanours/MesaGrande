@@ -94,13 +94,21 @@ p{
 #features{
   background-color: #ffff;
 }
-
+.bonus-pembelian{
+  margin-top: 20vh;;
+}
+.features-box-box{
+  height: 1000px;
+  align-items: center;
+}
 .features-box-outside{
   text-align: center;
+  align-items: center;
   padding: 3% 14%;
 }
 .features-box{
   text-align: center;
+  align-items: center;
   padding: 3% 7% 7%;
 }
 .features-icon{
