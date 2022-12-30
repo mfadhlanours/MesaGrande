@@ -13,4 +13,5 @@ $(document).ready(function(){
       window.open("https://www.facebook.com/hipproperty/")
     }
   });
+  
 });
