@@ -94,12 +94,12 @@ p{
 #features{
   background-color: #ffff;
 }
-.bonus-pembelian{
-  margin-top: 20vh;
-}
 .features-box-box{
   height: 1000px;
   align-items: center;
+}
+.fasilitas-box{
+  margin-top: 10vh;
 }
 .features-box-outside{
   text-align: center;
